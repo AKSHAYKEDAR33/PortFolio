@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PortFolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins';
+        }
+
+        .main {
+            height: 100vh;
+            width: 100%;
+            background:
+                linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)),
+                url('./logo.jpg');
+            background-size: cover;
+            background-position: center;
+            position: relative;
+
+        }
+
+        .nav {
+            height: 15vh;
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0px 90px;
+            color: white;
+            background-color: transparent;
+        }
+
+        .right {
+            display: flex;
+            gap: 30px;
+        }
+
+        .page1 {
+            height: 85vh;
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            justify-content: center;
+            padding-left: 90px;
+            padding-top: 100px;
+            font-size: 50px;
+            line-height: 110px;
+            font-weight: bold;
+            border-top: none;
+        }
+
+        .content-page1 {
+            height: 100%;
+            overflow-y: hidden;
+            z-index: 99;
+        }
+
+        .content-page1 h6 {
+            padding-top: 10px;
+            color: rgb(252, 41, 41);
+        }
+
+        .content-page1 h1 {
+            -webkit-text-stroke: 2px red;
+            color: rgb(255, 0, 0);
+        }
+
+        .page2 {
+            min-height: 100vh;
+            width: 100%;
+            background-color: black;
+            color: white;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .content-page2 {
+            height: 100%;
+            width: 90%;
+            padding: 50px 0px;
+        }
+
+        .up>p {
+            font-size: 20px;
+            line-height: 35px;
+        }
+
+        .below>p {
+            font-size: 20px;
+            line-height: 35px;
+        }
+
+        .up {
+            height: 50%;
+            width: 100%;
+        }
+
+        .below {
+            height: 50%;
+            width: 100%;
+        }
+
+        .up>h1 {
+            font-size: 80px;
+            padding-bottom: 10px;
+            color: rgb(219, 62, 14);
+        }
+
+        .up>p {
+            background-color: darkred;
+            padding: 40px;
+            border-radius: 5px;
+        }
+
+        .below>h1 {
+            margin-top: 50px;
+            font-size: 80px;
+            padding-bottom: 10px;
+            color:rgb(219, 62, 14)
+        }
+
+        .gurukilli {
+            height: 300px;
+            width: 100%;
+            background-color: darkred;
+            padding: 40px 30px;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            border-radius: 5px;
+        }
+
+        .gurukilli h1 {
+            font-size: 60px;
+            color: white;
+            text-shadow: chartreuse;
+        }
+
+        .gurukilli p {
+            width: 90%;
+        }
+
+        .page3 {
+            height: 50vh;
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+            background-color: black;
+            color: azure;
+            gap: 70px;
+        }
+
+        .up2 {
+            font-size: 30px;
+            font-family: 'Great Vibes', cursive;
+            font-size: 60px;
+            bottom: 30px;
+            right: 50px;
+            color: white;
+            opacity: 0.8;
+        }
+
+        .below2 {
+            width: 80%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            text-align: center;
+        }
+
+        .signature-font {
+            font-family: 'Great Vibes', cursive;
+            font-size: 60px;
+            bottom: 30px;
+            right: 50px;
+            color: white;
+            opacity: 0.8;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="nav">
+            <div class="left">
+                <h2>ARKedar</h2>
+            </div>
+            <div class="right">
+                <h3>Home</h3>
+                <h3>About Me</h3>
+                <h3>Contact Me</h3>
+            </div>
+        </div>
+        <div class="page1">
+            <div class="content-page1">
+                <h1>AKSHAY</h1>
+                <h1>RAJENDRA</h1>
+                <h1>KEDAR</h1>
+                <h6>Designer</h6>
+            </div>
+        </div>
+
+        <div class="page2">
+            <div class="content-page2">
+                <div class="up">
+                    <h1>About Me</h1>
+                    <p>I, Akshay Rajendra Kedar , am a passionate and skilled second-year diploma student from
+                        Government Polytechnic Pune,
+                        proficient in front-end and back-end development. Beyond mastering HTML, CSS, and JavaScript,
+                        I've advanced my expertise with GSAP for animations, and built scalable applications using
+                        Node.js, Express, and MongoDB with Mongoose. I'm the creator of GuruKilli — an innovative
+                        AI-powered gamified learning platform — and have proven my technical prowess through successful
+                        hackathon participations and impactful collaborations with schools. I'm committed to
+                        revolutionizing education by blending creativity, technology, and real-world application.
+                    </p>
+                </div>
+                <div class="below">
+                    <h1>My Works</h1>
+                    <div class="gurukilli">
+                        <h1>GuruKilli</h1>
+                        <p>GuruKilli is a ed-tech platform that blends gamification with AI-driven personalization to
+                            enhance student engagement and retention. With multilingual support and intelligent
+                            dashboards, it empowers both learners and educators through adaptive, data-rich experiences.
+                            GuruKilli reimagines learning as an immersive and dynamic journey.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="page3">
+            <div class="up2">
+                <h4 class="signature-font">Akshay Kedar</h4>
+            </div>
+            <div class="below2">
+                <h4>Instagram<br>
+                    ARK_33_</h4>
+                <h4>Contact No<br>+91 9505966535</h4>
+                <h4>Gmail<br>ak@gmail.com</h4>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js"
+        integrity="sha512-NcZdtrT77bJr4STcmsGAESr06BYGE8woZdSdEgqnpyqac7sugNO+Tr4bGwGF3MsnEkGKhU2KL2xh6Ec+BqsaHA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/ScrollTrigger.min.js"
+        integrity="sha512-P2IDYZfqSwjcSjX0BKeNhwRUH8zRPGlgcWl5n6gBLzdi4Y5/0O4zaXrtO4K9TZK6Hn1BenYpKowuCavNandERg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="index.js">
+    </script>
+</body>
+
+</html>
